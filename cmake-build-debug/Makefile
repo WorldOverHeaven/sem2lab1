@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kirill\CLionProjects\laba2
+CMAKE_SOURCE_DIR = C:\Users\kirill\CLionProjects\sem2lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kirill\CLionProjects\laba2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kirill\CLionProjects\sem2lab1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kirill\CLionProjects\laba2\cmake-build-debug\CMakeFiles C:\Users\kirill\CLionProjects\laba2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kirill\CLionProjects\sem2lab1\cmake-build-debug\CMakeFiles C:\Users\kirill\CLionProjects\sem2lab1\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kirill\CLionProjects\laba2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kirill\CLionProjects\sem2lab1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named laba2
+# Target rules for targets named sem2lab1
 
 # Build rule for target.
-laba2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 laba2
-.PHONY : laba2
+sem2lab1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sem2lab1
+.PHONY : sem2lab1
 
 # fast build rule for target.
-laba2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba2.dir\build.make CMakeFiles/laba2.dir/build
-.PHONY : laba2/fast
+sem2lab1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2lab1.dir\build.make CMakeFiles/sem2lab1.dir/build
+.PHONY : sem2lab1/fast
 
 main.obj: main.cpp.obj
 
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba2.dir\build.make CMakeFiles/laba2.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2lab1.dir\build.make CMakeFiles/sem2lab1.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba2.dir\build.make CMakeFiles/laba2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2lab1.dir\build.make CMakeFiles/sem2lab1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\laba2.dir\build.make CMakeFiles/laba2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sem2lab1.dir\build.make CMakeFiles/sem2lab1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... laba2
+	@echo ... sem2lab1
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

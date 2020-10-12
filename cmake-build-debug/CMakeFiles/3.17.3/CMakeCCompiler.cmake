@@ -70,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0/include;C:/python/include;C:/python/lib/gcc/mingw32/6.3.0/include-fixed;C:/python/mingw32/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0/include;C:/python/include;C:/python/lib/gcc/mingw32/6.3.0/include-fixed;C:/python/mingw32/include;/MinGW/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0;C:/python/lib/gcc;C:/python/mingw32/lib;C:/python/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

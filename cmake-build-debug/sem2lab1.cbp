@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="laba2"/>
+		<Option title="sem2lab1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -17,8 +17,8 @@
 					<DistClean command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="laba2">
-				<Option output="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/laba2.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sem2lab1">
+				<Option output="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/sem2lab1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -34,14 +34,14 @@
 					<Add directory="/mingw/lib/gcc/mingw32/6.3.0/../../../../include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 laba2"/>
+					<Build command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 sem2lab1"/>
 					<CompileFile command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="laba2/fast">
-				<Option output="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/laba2.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sem2lab1/fast">
+				<Option output="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/sem2lab1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -57,7 +57,7 @@
 					<Add directory="/mingw/lib/gcc/mingw32/6.3.0/../../../../include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 laba2/fast"/>
+					<Build command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 sem2lab1/fast"/>
 					<CompileFile command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/python/bin/mingw32-make.exe -f &quot;C:/Users/kirill/CLionProjects/sem2lab1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,34 +85,34 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/ArraySequence.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/DynamicArray.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/Functions.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/ISorter.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/Interface.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/LinkedList.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/LinkedListSequence.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/QueueSequence.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/Sequence.h">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/main.cpp">
-			<Option target="laba2"/>
+			<Option target="sem2lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/kirill/CLionProjects/sem2lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

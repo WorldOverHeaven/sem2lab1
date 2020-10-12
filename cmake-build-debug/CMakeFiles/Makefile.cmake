@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/laba2.dir/DependInfo.cmake"
+  "CMakeFiles/sem2lab1.dir/DependInfo.cmake"
   )

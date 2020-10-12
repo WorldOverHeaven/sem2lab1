@@ -2,6 +2,9 @@
 #define LABA2_INTERFACE_H
 #include <iostream>
 #include "ISorter.h"
+#include "Sequence.h"
+#include "LinkedListSequence.h"
+#include "ArraySequence.h"
 #include <ctime>
 using namespace std;
 

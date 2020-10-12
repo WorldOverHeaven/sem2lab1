@@ -1,13 +1,6 @@
 #include <iostream>
-#include <string>
-#include <random>
 #include "Sequence.h"
 #include "Functions.h"
-#include "DynamicArray.h"
-#include "LinkedList.h"
-#include "ArraySequence.h"
-#include "LinkedListSequence.h"
-#include "QueueSequence.h"
 #include "ISorter.h"
 #include "Interface.h"
 

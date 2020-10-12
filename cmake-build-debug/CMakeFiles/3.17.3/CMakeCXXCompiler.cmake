@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0/include/c++;C:/python/lib/gcc/mingw32/6.3.0/include/c++/mingw32;C:/python/lib/gcc/mingw32/6.3.0/include/c++/backward;C:/python/lib/gcc/mingw32/6.3.0/include;C:/python/include;C:/python/lib/gcc/mingw32/6.3.0/include-fixed;C:/python/mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0/include/c++;C:/python/lib/gcc/mingw32/6.3.0/include/c++/mingw32;C:/python/lib/gcc/mingw32/6.3.0/include/c++/backward;C:/python/lib/gcc/mingw32/6.3.0/include;C:/python/include;C:/python/lib/gcc/mingw32/6.3.0/include-fixed;C:/python/mingw32/include;/MinGW/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/python/lib/gcc/mingw32/6.3.0;C:/python/lib/gcc;C:/python/mingw32/lib;C:/python/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
